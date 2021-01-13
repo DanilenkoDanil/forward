@@ -1,0 +1,14 @@
+[Unit]
+Description=Telegram Bot
+After=network.target
+
+[Service]
+User=art
+Group=art
+
+WorkingDirectory=/home/art/forward/
+Environment="PYTHONPATH=/home/art/forward/"
+ExecStart=/home/art/forward/.venv/bin/python /home/art/forward/forwardgram.py /home/art/forward/config.yml-sample
+
+[Install]
+WantedBy=multi-user.target

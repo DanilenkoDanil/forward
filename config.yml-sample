@@ -1,5 +1,5 @@
-api_id:  # This has to be an integer. Read more [here](https://core.telegram.org/api/obtaining_api_id)
-api_hash: '' # Long 32 characters hash identifier. Read more [here](https://core.telegram.org/api/obtaining_api_id)
+api_id: 3566267  # This has to be an integer. Read more [here](https://core.telegram.org/api/obtaining_api_id)
+api_hash: '77c8ec3ad6b760c7d247ef4159721524' # Long 32 characters hash identifier. Read more [here](https://core.telegram.org/api/obtaining_api_id)
 session_name: 'forwardgram' # Session name. Only one session (with a unique session name) can run at a time
 
 # The channel names that you'd like to forward messages from.

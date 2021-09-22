@@ -3,12 +3,12 @@ Description=Telegram Bot
 After=network.target
 
 [Service]
-User=alex
-Group=alex
+User=first
+Group=first
 
-WorkingDirectory=/home/art/forward/
-Environment="PYTHONPATH=/home/art/forward/"
-ExecStart=/home/alex/forward/.venv/bin/python /home/alex/forward/forwardgram.py /home/alex/forward/config.yml-sample
+WorkingDirectory=/home/first/forward/
+Environment="PYTHONPATH=/home/first/forward/"
+ExecStart=/home/first/forward/.venv/bin/python /home/first/forward/forwardgram.py /home/first/forward/config.yml-sample
 
 [Install]
 WantedBy=multi-user.target
